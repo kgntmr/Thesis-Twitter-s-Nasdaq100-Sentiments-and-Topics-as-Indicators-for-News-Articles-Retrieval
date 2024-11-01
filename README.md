@@ -1,3 +1,15 @@
-Aimed to enhance investment strategies by analyzing Twitter data on Nasdaq100 sentiments and topics. Developed a chatbot that allowed users to ask questions and find relevant information in news articles. Improved accuracy from 2\% to 67\%, leading to more informed investment decisions.
+# Installation
+To set up the environment for this project, follow these steps:
 
-The question answering model is available to use: https://huggingface.co/kgntmr/RoBERTa-SQuAD2.0-SubjQA
+**1. Clone the Repository:**
+Clone this repository to your local machine
+'''
+git clone https://github.com/kgntmr/Thesis-Twitter-s-Nasdaq100-Sentiments-and-Topics-as-Indicators-for-News-Articles-Retrieval.git
+cd Thesis-Twitter-s-Nasdaq100-Sentiments-and-Topics-as-Indicators-for-News-Articles-Retrieval
+'''
+
+**2. Install Dependencies:**
+All required libraries and dependencies are specified in the 'requirements.txt' file. Install them by running:
+'''
+pip install -r requirements.txt
+'''
