@@ -1,6 +1,6 @@
 # Motivation
 
-This dissertation aims to enhance investment strategies by leveraging public opinions and news articles. Using VADER lexicon and Latent Dirichlet Allocation (LDA), it extracts insights from Tweets about Nasdaq100 companies and visualizes them in a dashboard gain ideas about both perspectives. Additionally, it fine-tunes the RoBERTa model on a subjective question-answering dataset to improve its reasoning capabilities and creates a retriever-generator system for rapid engagement with news articles. While focused on a specific time frame and company due to research constraints, this framework can be applied to other types of textual datasets.
+This dissertation aims to enhance investment strategies by leveraging public opinions and news articles. Using VADER lexicon and Latent Dirichlet Allocation (LDA), it extracts insights from Tweets about Nasdaq100 companies and visualizes them in a dashboard gain ideas about both perspectives. Additionally, it fine-tunes the RoBERTa model on a subjective question-answering dataset to improve its reasoning capabilities and creates a retriever-generator system for rapid engagement with news articles. While focused on a specific time frame and company due to research constraints, this framework can be applied to other types of textual datasets. If you're interested, check out the [Research Paper](https://arc.cct.ie/ict/48/) for more details, and explore the model on [HuggingFace](https://huggingface.co/kgntmr/RoBERTa-SQuAD2.0-SubjQA) to try its capabilities directly.
 
 ## Installation
 
@@ -21,7 +21,7 @@ All required libraries and dependencies are specified in the `requirements.txt` 
 pip install -r requirements.txt
 ```
 
-### How To Use
+## How To Use
 Each jupyter files are serving to different purposes and each needs to be used differently:
 - Sentiment Analysis:
 
