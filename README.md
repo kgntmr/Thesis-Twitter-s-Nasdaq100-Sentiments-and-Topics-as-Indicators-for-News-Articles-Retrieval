@@ -11,10 +11,14 @@ Clone this repository to your local machine
 
 ```
 git clone https://github.com/kgntmr/Thesis-Twitter-s-Nasdaq100-Sentiments-and-Topics-as-Indicators-for-News-Articles-Retrieval.git
+```
+
+```
 cd Thesis-Twitter-s-Nasdaq100-Sentiments-and-Topics-as-Indicators-for-News-Articles-Retrieval
 ```
 
 **2. Install Dependencies:**
+This project requires: Python (>= 3.9)
 All required libraries and dependencies are specified in the `requirements.txt` file. Install them by running:
 
 ```
