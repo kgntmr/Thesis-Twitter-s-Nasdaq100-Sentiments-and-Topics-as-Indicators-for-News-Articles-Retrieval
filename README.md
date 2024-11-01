@@ -1,4 +1,8 @@
-# Installation
+# Motivation
+
+This dissertation is aim to guide use public opinions and news articles to make an enhanced investment strategies. 
+
+## Installation
 
 To set up the environment for this project, follow these steps:
 
