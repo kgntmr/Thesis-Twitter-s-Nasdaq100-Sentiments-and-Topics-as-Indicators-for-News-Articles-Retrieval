@@ -1,6 +1,6 @@
 # Motivation
 
-This dissertation aims to enhance investment strategies by leveraging public opinions and news articles. Using VADER lexicon and Latent Dirichlet Allocation (LDA), it extracts insights from Tweets about Nasdaq100 companies and visualizes them in a dashboard gain ideas about both perspectives. Additionally, it fine-tunes the RoBERTa model on a subjective question-answering dataset to improve its reasoning capabilities and creates a retriever-generator system for rapid engagement with news articles. While focused on a specific time frame and company due to research constraints, this framework can be applied to other types of textual datasets. If you're interested, check out the [Research Paper](https://arc.cct.ie/ict/48/) for more details, and explore the model on [HuggingFace](https://huggingface.co/kgntmr/RoBERTa-SQuAD2.0-SubjQA) to try its capabilities directly.
+This dissertation aims to enhance investment strategies by leveraging public opinions and news articles. Using VADER lexicon and Latent Dirichlet Allocation (LDA), it extracts insights from Tweets about Nasdaq100 companies and visualizes them in a dashboard gain ideas about both perspectives. Additionally, it fine-tunes the RoBERTa model on a subjective question-answering dataset to improve its reasoning capabilities and creates a retriever-generator system for rapid engagement with news articles. While focused on a specific time frame and company due to research constraints, this framework can be applied to other types of textual datasets. If you're interested, check out the [Research Paper](https://arc.cct.ie/ict/48/) for more details, and explore the model on [HuggingFace](https://huggingface.co/kgntmr/RoBERTa-SQuAD2.0-SubjQA) to try its capabilities directly. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/kagan-timur/) to ask questions or just say hi!
 
 ## Installation
 
@@ -9,16 +9,17 @@ To set up the environment for this project, follow these steps:
 **1. Clone the Repository:**
 Clone this repository to your local machine
 
-```
+```bash
 git clone https://github.com/kgntmr/Thesis-Twitter-s-Nasdaq100-Sentiments-and-Topics-as-Indicators-for-News-Articles-Retrieval.git
 ```
-
-```
+```bash
 cd Thesis-Twitter-s-Nasdaq100-Sentiments-and-Topics-as-Indicators-for-News-Articles-Retrieval
 ```
 
 **2. Install Dependencies:**
-This project requires: Python (>= 3.9)
+
+This project requires: Python (>= 3.9) and git
+
 All required libraries and dependencies are specified in the `requirements.txt` file. Install them by running:
 
 ```
