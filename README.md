@@ -1,6 +1,6 @@
 # Motivation
 
-This dissertation is aim to guide use public opinions and news articles to make an enhanced investment strategies. 
+This dissertation aims to enhance investment strategies by leveraging public opinions and news articles. Using VADER lexicon and Latent Dirichlet Allocation (LDA), it extracts insights from Tweets about Nasdaq100 companies and visualizes them in a dashboard. Additionally, it fine-tunes the RoBERTa model on a subjective question-answering dataset to improve its reasoning capabilities and creates a retriever-generator system for rapid engagement with news articles. While focused on a specific time frame and company due to research constraints, this framework can be applied to other types of textual datasets.
 
 ## Installation
 
