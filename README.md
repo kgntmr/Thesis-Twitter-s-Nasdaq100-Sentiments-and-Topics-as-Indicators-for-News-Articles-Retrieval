@@ -37,14 +37,23 @@ For semantic analysis, also replace the file path with your dataset in the speci
 
 - Fine-Tuning an LLM for QA:
 
-This code is adaptable for fine-tuning any large language model for question-answering tasks, not limited to RoBERTa. Ensure your data types match those specified for seamless integration:
+This code is adaptable for fine-tuning any large language model for question-answering tasks, not limited to RoBERTa. Ensure your data types and names match those specified for seamless integration:
 
 ```
- #   Column             Non-Null Count  Dtype 
----  ------             --------------  ----- 
- 0   question           2501 non-null   object
- 1   human_ans_indices  2501 non-null   object
- 2   review             2501 non-null   object
- 3   human_ans_spans    2501 non-null   object
- 4   id                 2501 non-null   object
+Column                Dtype 
+------                ----- 
+question              object
+human_ans_indices     object
+review                object
+human_ans_spans       object
+id                    object
 ```
+- RAG System:
+
+This code is also adaptable for any large language model for RAG system, you can change the choice of your model by simply putting the details of your own model in to this line:
+
+```
+qa_pipeline = pipeline("question-answering", model="kgntmr/RoBERTa-SQuAD2.0-SubjQA")
+```
+
+The web scraping section may require adjustments, such as modifying the attributes to suit your chosen website, along with other potential tweaks. However, the overall pipeline remains unchanged. If you prefer not to use web scraping, you can simply upload your own files directly into the Jupyter notebook after a small adjustment in the code.
