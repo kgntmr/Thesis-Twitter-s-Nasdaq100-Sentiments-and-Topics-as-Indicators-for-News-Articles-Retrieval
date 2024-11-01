@@ -1,4 +1,4 @@
-# Installation
+# Installation
 
 To set up the environment for this project, follow these steps:
 
